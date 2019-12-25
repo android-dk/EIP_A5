@@ -1,5 +1,146 @@
 # EIP_A5
 
+## Strategy 
+
+Architecture : ResNet20v2 
+Learning Rate : CyclicLR
+No of Epochs : 160
+
+## Last Epoch results
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>159</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>val_gender_output_accuracy</th>
+      <td>0.993091</td>
+    </tr>
+    <tr>
+      <th>val_imagequality_output_accuracy</th>
+      <td>0.945192</td>
+    </tr>
+    <tr>
+      <th>val_age_output_accuracy</th>
+      <td>0.897200</td>
+    </tr>
+    <tr>
+      <th>val_weight_output_accuracy</th>
+      <td>0.863854</td>
+    </tr>
+    <tr>
+      <th>val_carryingbag_output_accuracy</th>
+      <td>0.945836</td>
+    </tr>
+    <tr>
+      <th>val_footwear_output_accuracy</th>
+      <td>0.959009</td>
+    </tr>
+    <tr>
+      <th>val_emotion_output_accuracy</th>
+      <td>0.916452</td>
+    </tr>
+    <tr>
+      <th>val_bodypose_output_accuracy</th>
+      <td>0.984985</td>
+    </tr>
+  </tbody>
+</table>
+
+## Highest validation accuracy achieved
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>val_gender_output_accuracy</th>
+      <td>0.999355</td>
+    </tr>
+    <tr>
+      <th>val_imagequality_output_accuracy</th>
+      <td>0.974300</td>
+    </tr>
+    <tr>
+      <th>val_age_output_accuracy</th>
+      <td>0.944363</td>
+    </tr>
+    <tr>
+      <th>val_weight_output_accuracy</th>
+      <td>0.953666</td>
+    </tr>
+    <tr>
+      <th>val_carryingbag_output_accuracy</th>
+      <td>0.985077</td>
+    </tr>
+    <tr>
+      <th>val_footwear_output_accuracy</th>
+      <td>0.978261</td>
+    </tr>
+    <tr>
+      <th>val_emotion_output_accuracy</th>
+      <td>0.965733</td>
+    </tr>
+    <tr>
+      <th>val_bodypose_output_accuracy</th>
+      <td>0.998342</td>
+    </tr>
+  </tbody>
+</table>
+
+## Lowest loss achieved 
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>val_gender_output_loss</th>
+      <td>0.011164</td>
+    </tr>
+    <tr>
+      <th>val_imagequality_output_loss</th>
+      <td>0.128798</td>
+    </tr>
+    <tr>
+      <th>val_age_output_loss</th>
+      <td>0.269848</td>
+    </tr>
+    <tr>
+      <th>val_weight_output_loss</th>
+      <td>0.172397</td>
+    </tr>
+    <tr>
+      <th>val_carryingbag_output_loss</th>
+      <td>0.084444</td>
+    </tr>
+    <tr>
+      <th>val_footwear_output_loss</th>
+      <td>0.095400</td>
+    </tr>
+    <tr>
+      <th>val_emotion_output_loss</th>
+      <td>0.142213</td>
+    </tr>
+    <tr>
+      <th>val_bodypose_output_loss</th>
+      <td>0.017682</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## Logs for each epoch
 
 <table border="1" class="dataframe">
