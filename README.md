@@ -3,7 +3,9 @@
 ## Strategy 
 
 Architecture : ResNet20v2 
+
 Learning Rate : CyclicLR
+
 No of Epochs : 160
 
 ## Last Epoch results
