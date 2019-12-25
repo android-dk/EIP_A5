@@ -143,6 +143,7 @@ No of Epochs : 160
 </table>
 
 ### Note : Google Colab crashed after 160 epochs in the original 200 epoch run.
+### It did not print any of the logs for 160 epochs but luckily I was using tensorboard 
 ### For this reason I have used tensorboard logs to grab logs of epochs! They are displayed below
 
 ## Logs for each epoch
